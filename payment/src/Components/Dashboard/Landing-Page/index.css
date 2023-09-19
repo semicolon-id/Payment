@@ -1,0 +1,51 @@
+.lingkaran {
+    bottom: -30%;
+    left: -12%;
+    width: 50%;
+    height: 110%;
+  }
+  
+  .card1 {
+    position: relative;
+    bottom: -10%;
+    right: -50%;
+    rotate: -10deg;
+    z-index: 5;
+  }
+  
+  .card2 {
+    position: relative;
+    bottom: -2%;
+    right: -38%;
+    rotate: -25deg;
+    z-index: 10;
+  }
+  .circle1 {
+    position: relative;
+    right: -10%;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .lingkaran {
+      top: -8%;
+      width: 50%;
+      height: 28%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }
